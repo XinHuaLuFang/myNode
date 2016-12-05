@@ -1,10 +1,10 @@
 /**
  * Created by xin on 2016/12/2.
  */
-var fs = require('fs');
+var fs = require('txt');
 var data = '';
 
-var readStream = fs.createReadStream('./practice/fs/output.txt');
+var readStream = fs.createReadStream('./practice/txt/output.txt');
 readStream.setEncoding('UTF-8');
 
 readStream.on('data', function(chunk) {

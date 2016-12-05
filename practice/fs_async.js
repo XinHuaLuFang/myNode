@@ -1,9 +1,9 @@
 /**
  * Created by xin on 2016/12/2.
  */
-var fs = require('fs');
+var fs = require('txt');
 
-fs.readFile('./practice/fs/output.txt', function(err, data) {
+fs.readFile('./practice/txt/output.txt', function(err, data) {
     if (err) return console.error(err);
     console.log(data.toString());
 });
