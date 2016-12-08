@@ -5,7 +5,7 @@ var fs = require('fs');
 var buf = Buffer.alloc(30);
 
 console.log('准备打开已存在的文件！');
-fs.open('./practice/txt/output.txt', 'r+', function(err, fd) {
+fs.open('./runoob/txt/output.txt', 'r+', function(err, fd) {
     if (err) {
         return console.error(err);
     }

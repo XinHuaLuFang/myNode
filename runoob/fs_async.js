@@ -3,7 +3,7 @@
  */
 var fs = require('txt');
 
-fs.readFile('./practice/txt/output.txt', function(err, data) {
+fs.readFile('./runoob/txt/output.txt', function(err, data) {
     if (err) return console.error(err);
     console.log(data.toString());
 });

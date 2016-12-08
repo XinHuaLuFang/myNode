@@ -4,7 +4,7 @@
 var fs = require('txt');
 var data = '这是一个文本文件。';
 
-var writeStream = fs.createWriteStream('./practice/txt/input.txt');
+var writeStream = fs.createWriteStream('./runoob/txt/input.txt');
 writeStream.write(data, "UTF8");
 writeStream.end();
 

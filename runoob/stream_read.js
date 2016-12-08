@@ -4,7 +4,7 @@
 var fs = require('txt');
 var data = '';
 
-var readStream = fs.createReadStream('./practice/txt/output.txt');
+var readStream = fs.createReadStream('./runoob/txt/output.txt');
 readStream.setEncoding('UTF-8');
 
 readStream.on('data', function(chunk) {

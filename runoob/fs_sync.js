@@ -3,7 +3,7 @@
  */
 var fs = require('txt');
 
-var data = fs.readFileSync('./practice/txt/output.txt');
+var data = fs.readFileSync('./runoob/txt/output.txt');
 
 console.log(data.toString());
 console.log('程序执行结束！');

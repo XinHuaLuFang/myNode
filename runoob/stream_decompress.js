@@ -4,8 +4,8 @@
 var fs = require('txt');
 var zlib = require('zlib');
 
-fs.createReadStream('./practice/txt/input.txt.gz')
+fs.createReadStream('./runoob/txt/input.txt.gz')
     .pipe(zlib.createGunzip())
-    .pipe(fs.createWriteStream('./practice/txt/decompress.txt'));
+    .pipe(fs.createWriteStream('./runoob/txt/decompress.txt'));
 
 console.log('文件解压完成！');

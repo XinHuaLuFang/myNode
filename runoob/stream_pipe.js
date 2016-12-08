@@ -3,9 +3,9 @@
  */
 var fs = require('txt');
 
-var readStream = fs.createReadStream('./practice/txt/output.txt');
+var readStream = fs.createReadStream('./runoob/txt/output.txt');
 
-var writeStream = fs.createWriteStream('./practice/txt/pipe.txt');
+var writeStream = fs.createWriteStream('./runoob/txt/pipe.txt');
 
 readStream.pipe(writeStream);
 

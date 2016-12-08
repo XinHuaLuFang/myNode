@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/XinHuaLuFang/myNode/issues"
   },
-  "homepage": "https://github.com/XinHuaLuFang/myNode#readme"
+  "homepage": "https://github.com/XinHuaLuFang/myNode#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
